@@ -36,3 +36,17 @@ if(num==sum):
 else:
     print(num,"is not an Armstriong number")
     
+ #py.gcd_numbers
+import math
+a=int(input())
+b=int(input())
+s=math.gcd(a,b)
+print(s)
+
+#py.lcm_numbers
+import math
+a=int(input())
+b=int(input())
+s=math.gcd(a,b)
+lcm=a*b//s
+print(lcm)    
